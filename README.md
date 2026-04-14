@@ -68,6 +68,14 @@ bash prepare_oov_voc_coco.sh
 
 Follow ".\offline_rpn_weights\README.md" and ".\pretrained_ckpt\regionclip\README.md" to prepare pretrained models.
 
+- ## Prepare concepts
+
+Please download the required file from [Google Drive](https://drive.google.com/file/d/1OQ27_o4kawTwxZbnvffyPWcarjPdqsEH/view?usp=drive_link) and place it in:
+
+```bash
+./concepts/
+```
+
 - ## Running
 
   - ##### OOV-COCO dataset settings:
