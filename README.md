@@ -70,7 +70,7 @@ Follow ".\offline_rpn_weights\README.md" and ".\pretrained_ckpt\regionclip\READM
 
 - ## Prepare concepts
 
-Please download the required file from [Google Drive](https://drive.google.com/file/d/1OQ27_o4kawTwxZbnvffyPWcarjPdqsEH/view?usp=drive_link) and place it in:
+Please download the required file from [Google Drive](https://drive.google.com/drive/folders/1b67Lv3GZJdHeaCqa4zFFp92FDhnc2dho?usp=drive_link) and place it in:
 
 ```bash
 ./concepts/
