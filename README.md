@@ -1,6 +1,6 @@
 # Zero-Shot Out-of-Vocabulary Object Detection
 
-[[2601.22685] OOVDet: Low-Density Prior Learning for Zero-Shot Out-of-Vocabulary Object Detection (arxiv.org)](https://arxiv.org/abs/2601.22685)
+[[2601.22685] OOVDet: Low-Density Prior Learning for Zero-Shot Out-of-Vocabulary Object Detection, Proceedings of the 43rd International Conference on Machine Learning, 2026](https://icml.cc/virtual/2026/poster/61810)
 
 
 - ## **Installation**
@@ -104,6 +104,14 @@ Before running, please download the trained model weights (`model_final.pth`) fr
 ./output/voc/rn50x4/
 ```
 
+
 Note that the comm.py, rpn.py, proposal_utils.py and batch_norm.py are modified version based on the [Release v0.3 · facebookresearch/detectron2 (github.com)](https://github.com/facebookresearch/detectron2/releases/tag/v0.3)
+
+@inproceedings{su2026oovdet,
+  author    = {Binyi Su and Chenghao Huang and Haiyong Chen},
+  title     = {OOVDet: Low-Density Prior Learning for Zero-Shot Out-of-Vocabulary Object Detection},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
+  year      = {2026}
+}
 
 All our experiments were conducted on a single NVIDIA 1080Ti, with a batch size of 1 for base class training and a batch size of 1 for novel class fine-tuning.
